@@ -1,0 +1,14 @@
+nome = None
+cidade = None
+idade = None
+profissao = None
+
+nome = input("Qual o seu nome?")
+idade = int(input("Qual a sua idade"))
+cidade = input("Em que cidade você mora?")
+profissao = input("Qual sua Profissão?")
+
+print("Olá meu nome é", nome)
+print("Eu tenho", idade, "anos")
+print("Moro em", cidade)
+print("Trabalho como", profissao)
