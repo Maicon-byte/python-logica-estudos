@@ -1,8 +1,8 @@
-nome = "Maicon"
-cidade = "Brasília"
-idade = 29
+nome = None
+cidade = None
 
-print("Olá meu nome é", nome)
-print("Eu tenho", idade,"anos")
-print("Moro em ", cidade)
+nome = input("Qual o seu nome?")
+cidade = input("Em que cidade você mora?")
 
+print("Olá", nome)
+print("Então você moram em", cidade)
