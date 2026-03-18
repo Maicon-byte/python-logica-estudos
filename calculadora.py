@@ -1,4 +1,13 @@
 num1 = None
+
+def menu():
+  print("==== Calculadora ====")
+  print("1 - Somar")
+  print("2 - Subtrair")
+  print("3 - Multiplicar")
+  print("4 - Dividir")
+  print("0 - Sair")
+
 def somar():
   a = int(input("Digite um número: "))
   b = int(input("Digite outro número: "))
@@ -23,11 +32,8 @@ def div():
     return a / b
 
 while num1 != 0:
-  print("0 : Sair")
-  print("1 : + Somar")
-  print("2 : - Subtração")
-  print("3 : x Multiplicação")
-  print("4 : / Divisão")
+ 
+  menu()
   
   num1 = int(input("Qual operação você vai fazer? "))
 
